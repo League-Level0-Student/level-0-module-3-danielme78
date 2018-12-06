@@ -1,5 +1,7 @@
 package extra;
 
+import javax.swing.JOptionPane;
+
 public class Horoscope {
 public static void main(String[] args) {
 
@@ -13,7 +15,43 @@ public static void main(String[] args) {
 	String scorpio = "Passionate, exacting, loves extremes, combative, reflective.";
 	String sagittarius = "Happy, absent minded, creative, adventurous.";
 	String capricorn = "Timeless, driven, calculating, ambitious.";
-	
+	String aquarius = "Forward thinking, communicative, people oriented, stubborn, generous, and dedicated.";
+	String pisces = "Likeable, energetic, passionate, sensitive.";
+
+String wants = JOptionPane.showInputDialog("What's your star sign?");
+
+if (wants.equalsIgnoreCase("")) {
+	JOptionPane.showMessageDialog(null, );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 	
 }
