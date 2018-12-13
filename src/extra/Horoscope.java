@@ -17,24 +17,49 @@ public static void main(String[] args) {
 	String capricorn = "Timeless, driven, calculating, ambitious.";
 	String aquarius = "Forward thinking, communicative, people oriented, stubborn, generous, and dedicated.";
 	String pisces = "Likeable, energetic, passionate, sensitive.";
-
+	
+	
 String wants = JOptionPane.showInputDialog("What's your star sign?");
 
-if (wants.equalsIgnoreCase("")) {
-	JOptionPane.showMessageDialog(null, );
+if (wants.equalsIgnoreCase("aries")) {
+	JOptionPane.showMessageDialog(null,aries);
 }
-
-
-
-
-
-
-
-
-
-
-
-
+else if (wants.equalsIgnoreCase("taurus")) {
+	JOptionPane.showMessageDialog(null,taurus);
+}
+else if (wants.equalsIgnoreCase("gemini")) {
+	JOptionPane.showMessageDialog(null,gemini);
+}
+else if (wants.equalsIgnoreCase("cancer")) {
+	JOptionPane.showMessageDialog(null,cancer);
+}
+else if (wants.equalsIgnoreCase("leo")) {
+	JOptionPane.showMessageDialog(null,leo);
+}
+else if (wants.equalsIgnoreCase("virgo")) {
+	JOptionPane.showMessageDialog(null,virgo);
+}
+else if (wants.equalsIgnoreCase("zodiac")) {
+	JOptionPane.showMessageDialog(null,zodiac);
+}
+else if (wants.equalsIgnoreCase("scorpio")) {
+	JOptionPane.showMessageDialog(null,scorpio);
+}
+else if (wants.equalsIgnoreCase("sagittarius")) {
+	JOptionPane.showMessageDialog(null,sagittarius);
+}
+else if (wants.equalsIgnoreCase("capricorn")) {
+	JOptionPane.showMessageDialog(null,capricorn);
+}
+else if (wants.equalsIgnoreCase("aquarius")) {
+	JOptionPane.showMessageDialog(null,aquarius);
+}
+else if (wants.equalsIgnoreCase("pisces")) {
+	JOptionPane.showMessageDialog(null,pisces);
+}
+else {
+	JOptionPane.showMessageDialog(null, "That's not a star sign!");
+}
 
 
 
