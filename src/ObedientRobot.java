@@ -36,6 +36,7 @@ for (int triangl3 = 0; triangl3 < 3; triangl3++) {
 	}
 	if (answer.equalsIgnoreCase("circle")) {
 	r.show();
+	r.setWindowSize(10000, 10000);
 for (int circl3 = 0; circl3 < 70; circl3++) {
 	   r.turn(5);
 	   r.move(5);
